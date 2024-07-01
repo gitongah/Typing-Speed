@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Basic reset for consistent styling across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+.masthead {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Main content area styling */
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Introduction section styling */
+.intro p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* Test area styling */
+.test-area {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#origin-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.test-wrapper {
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+/* Timer and button styling */
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .masthead {
+        padding: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    .main {
+        padding: 0 0.5rem;
+    }
+
+    .meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .timer {
+        margin-bottom: 1rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.75rem;
+    }
+}
